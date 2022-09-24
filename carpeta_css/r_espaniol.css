@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(162, 58, 58);
+}
+
+.contenedor-total {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+
+
+}
+
+.contenedor-header {
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    height: 15vh;
+    min-height: 8vh;
+    background: #1D1E22;
+
+
+}
+
+.contenedor-nombre {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 2;
+    max-width: 100vw;
+    min-height: 30px;
+    text-align: center;
+
+
+}
+
+.contenedor-nombre h1 {
+    overflow: hidden;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    min-height: 30px;
+}
+
+.contenedor-logos {
+    border-right: 3px solid #1D1E22;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    overflow: hidden;
+    margin-right: left;
+    min-width: 50px;
+    max-width: 80px;
+    min-height: 80vh;
+    background-color: #fff;
+    justify-content: space-between;
+    align-self: stretch;
+
+}
+
+.contenedor-logos__1 {
+    max-width: 100%;
+
+}
+
+.contenedor-logos__1 img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 0px 1px #4b4b50);
+    animation: animacion-logos 3s linear infinite;
+    padding-top: 30px;
+
+}
+
+.contenedor-logos__2 {
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+.contenedor-logos__2 img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 0px 1px #4b4b50);
+    animation: animacion-logos 3s linear infinite;
+
+
+}
+
+.contenedor-logos__3 {
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+.contenedor-logos__3 img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 0px 1px #4b4b50);
+    animation: animacion-logos 3s linear infinite;
+
+
+}
+
+.contenedor-logos__4 {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.contenedor-logos__4 img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 0px 1px #4b4b50);
+    animation: animacion-logos 3s linear infinite;
+
+
+}
+
+
+.contenedor-nav {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    min-height: 27px;
+    background-color: #1D1E22;
+
+}
+
+.contenedor-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+
+.contenedor-nav ul li {
+    float: left;
+
+
+}
+
+.contenedor-nav ul li:last-child {
+    float: left;
+    margin-right: 1px;
+
+}
+
+.contenedor-nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-size: 18px;
+    padding: 3px 34px 0 34px;
+    border: 2px solid;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: rgb(162, 58, 58);
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Quicksand';
+    transition: all 0.15s linear;
+
+}
+
+.contenedor-nav ul li a:hover {
+    padding: 5px 34px 0 34px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(32, 26, 26);
+    background-color: rgb(208, 133, 133);
+}
+
+.contenedor-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+
+}
+
+.contenedor-seccion-texto {
+    margin: auto;
+    border-left: 3px solid #1D1E22;
+    border-top: 1px solid #1D1E22;
+    border-right: 1px solid #1D1E22;
+    margin-left: 50px;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* esto sirve para modificar la posicion del parrafo. mantenerlo en todas?*/
+    align-items: center;
+    font-family: 'Quicksand', 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1D1E22;
+    min-height: 100vh;
+
+
+}
+
+.contenedor-seccion-texto h2 {
+    letter-spacing: 2px;
+    text-shadow: 2px 3px rgb(222, 222, 222);
+
+}
+
+.encabezado-texto {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.sub-item-lista {
+    list-style-position: inside;
+
+}
+
+.item-lista,
+sub-item-lista {
+    font-family: 'Quicksand', 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1D1E22;
+}
+
+.contenedor-certificaciones-total {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+    letter-spacing: 3px;
+    row-gap: 50px;
+
+
+}
+
+.contenedor-certificaciones {
+    column-gap: 10px;
+    border: 1.5px solid #1D1E22;
+    border-radius: 12px;
+    padding: 30px;
+    background-color: rgb(222, 222, 222);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.link-certificacion {
+    display: block;
+    padding-top: 15px;
+    width: fit-content;
+
+}
+
+.link-certificacion:link {
+    color: #1D1E22;
+}
+
+.link-certificacion:hover {
+    color: rgb(162, 58, 58);
+}
+
+.link-certificacion:active {
+    color: rgb(208, 133, 133);
+}
+
+.link-certificacion:visited {
+    color: #1D1E22;
+}
+
+.link-certificacion:visited:hover {
+    color: rgb(162, 58, 58);
+}
+
+.link-certificacion:visited:active {
+    color: rgb(208, 133, 133);
+}
+
+.certificaciones {
+    font-size: 30px;
+
+}
+
+.horas-totales {
+    column-gap: 10px;
+    border: 1.5px solid #1D1E22;
+    border-radius: 12px;
+    padding: 30px;
+    align-self: center;
+    font-weight: bold;
+    color: black;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.279);
+}
+
+.contenedor-datacamp-logo {
+    max-width: 150px;
+    /* si cambio el icono tengo que cambiar el max-width*/
+    float: right;
+    position: relative;
+    bottom: 45px;
+}
+
+.datacamp-logo {
+    width: 100%;
+
+
+}
+
+.boton-descarga {
+    margin-top: 20px;
+}
+
+.boton-descarga {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 12px;
+
+}
+
+.boton-descarga:hover {
+    background-color: RoyalBlue;
+}
+
+.formato-link-descarga {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.contenedor-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #1D1E22;
+    margin-top: auto;
+
+
+
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+}
+
+.footer-link li {
+    list-style: none;
+    text-align: center;
+    color: white;
+
+}
+
+.aclaracion {
+    font-size: 13px;
+
+}
+
+.icon {
+    margin-bottom: 5px;
+}
+
+.footer-link li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    font-weight: bold;
+    padding: 14px 16px 0 16px;
+    overflow: hidden;
+    transition: all 0.15s;
+    font-family: "Quicksand", 'Times New Roman', Times, serif;
+
+
+}
+
+.footer-link li a:hover {
+    color: rgb(112, 112, 112);
+}
+
+@keyframes animacion-logos {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-25px);
+    }
+}
+
+
