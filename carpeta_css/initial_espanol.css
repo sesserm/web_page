@@ -55,6 +55,26 @@ body {background-color:  rgb(162, 58, 58);
     min-height: 30px;
 }
 
+.fa-lg {
+    padding:3px 20px 3px 17px;
+    border: 2px solid;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: rgb(162, 58, 58);
+    color: #fff;
+    font-family: 'Quicksand';
+    transition: all 0.15s linear;
+    margin-bottom: 1px;
+    
+
+}
+
+.fa-lg:hover {
+    padding: 3px 71px 3px 17px;
+    color: rgb(32, 26, 26);
+    background-color: rgb(208, 133, 133);
+}
+
 .contenedor-logos {
     border-right: 3px solid #1D1E22;
     display:flex;
@@ -157,13 +177,12 @@ body {background-color:  rgb(162, 58, 58);
 .contenedor-nav ul li:last-child {
     float: left;
     margin-right: 1px;
-
 }
+
 
 .contenedor-nav ul li a {
     text-decoration: none;
     text-transform:uppercase;
-    border: 1px solid green;
     font-weight: 400px;
     font-size: 18px;
     padding: 3px 34px 0 34px;
