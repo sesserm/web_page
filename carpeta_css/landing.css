@@ -47,6 +47,10 @@ body {
     background: conic-gradient(from 0deg at 50% 50%, rgba(111, 123, 247, 1) 0%, rgba(155, 248, 244, 1) 0%, #101012 0%);
     border-radius: 100px;
     box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.75), -4px -4px 16px rgba(255, 255, 255, 0.1);
+    -webkit-animation: spin 1s infinite linear;
+    -moz-animation: spin 1s infinite linear;
+    -ms-animation: spin 1s infinite linear;
+    -o-animation: spin 1s infinite linear;
     animation: spin 1s infinite linear;
 }
 
@@ -72,6 +76,10 @@ body {
     border-radius: 100px;
     background: #1D1E22;
     box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.75) inset, -4px -4px 16px rgba(255, 255, 255, 0.1) inset;
+    -webkit-animation: spin 1s infinite linear reverse;
+    -moz-animation: spin 1s infinite linear reverse;
+    -ms-animation: spin 1s infinite linear reverse;
+    -o-animation: spin 1s infinite linear reverse;
     animation: spin 1s infinite linear reverse;
 }
 
