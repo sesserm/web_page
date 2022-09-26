@@ -334,6 +334,21 @@ a {
     padding-right:10px;
     padding-left: 10px;
 }
+
+                .fa-lg:hover {
+                    padding: 3px 20px 3px 17px;
+                    color: rgb(32, 26, 26);
+                    background-color: rgb(208, 133, 133);
+                }
+        
+                .contenedor-nav ul li a:hover {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: rgb(32, 26, 26);
+                    background-color: rgb(208, 133, 133);
+                }
  }
 
 @keyframes animacion-logos {
