@@ -315,6 +315,27 @@ a {
     color: rgb(112, 112, 112);
 }
 
+@media (max-width: 832px) {
+.loading-box {
+    display: none;
+}
+
+.loading-box-2 {
+    display: flex;
+}
+
+.modificado {
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+
+.contenedor-nav ul li a {
+    padding-right:10px;
+    padding-left: 10px;
+}
+ }
+
 @keyframes animacion-logos {
     0%, 
     100% {
