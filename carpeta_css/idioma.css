@@ -11,6 +11,7 @@ body {
 .centrar {
     margin-left: auto; /* testeo centrar div */
     margin-right: auto;
+    max-width:1000px; /* funca?*/
 }
 
 body {
