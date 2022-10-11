@@ -9,7 +9,7 @@ body {
 }
 
 .centrar {
-    margin-left: auto;
+    margin-left: auto; /* testeo centrar div */
     margin-right: auto;
 }
 
