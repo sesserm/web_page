@@ -11,7 +11,12 @@ body {
 .centrar {
     margin-left: auto; /* testeo centrar div */
     margin-right: auto;
-    max-width:1000px; /* funca?*/
+    max-width:1500px; /* funca?*/
+    display: flex;
+    border:1px solid red;
+    column-gap: 300px;
+    overflow: hidden;
+    
 }
 
 body {
@@ -25,6 +30,7 @@ body {
 .loading-box {
     position: relative;
     width: 300px;
+    min-width: 275px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -38,6 +44,7 @@ body {
 .loading-box-2 {
     position: relative;
     width: 300px;
+    min-width: 275px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -52,6 +59,7 @@ body {
 .contenedor-idiomas {
     position: relative;
     width: 300px;
+    min-width: 275px;
     height: 400px;
     display: flex;
     flex-direction: column;
