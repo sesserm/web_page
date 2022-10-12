@@ -13,7 +13,6 @@ body {
     margin-right: auto;
     max-width:1500px; /* funca?*/
     display: flex;
-    border:1px solid red;
     column-gap: 300px;
     overflow: hidden;
     
@@ -38,7 +37,8 @@ body {
     align-items: center;
     color: #F0F8FF;
     border-radius: 12px;
-    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5), -4px -4px 16px rgba(255, 255, 255, 0.05);
+    border: 2px groove rgba(255, 255, 255, 0.23);
+    padding: 10px;
 }
 
 .loading-box-2 {
@@ -52,6 +52,7 @@ body {
     align-items: center;
     color: #F0F8FF;
     border-radius: 12px;
+    border: 2px groove rgba(255, 255, 255, 0.23);
     box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5), -4px -4px 16px rgba(255, 255, 255, 0.05);
     display: none;
 }
@@ -68,7 +69,8 @@ body {
     align-items: center;
     color: #F0F8FF;
     border-radius: 12px;
-    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5), -4px -4px 16px rgba(255, 255, 255, 0.05);
+    border: 2px groove rgba(255, 255, 255, 0.35);
+    
     
 }
 
