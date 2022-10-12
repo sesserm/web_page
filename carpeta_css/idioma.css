@@ -69,7 +69,7 @@ body {
     align-items: center;
     color: #F0F8FF;
     border-radius: 12px;
-    border: 2px groove rgba(255, 255, 255, 0.35);
+    border: 2px groove rgba(255, 255, 255, 0.25);
     
     
 }
@@ -120,6 +120,7 @@ body {
  @media (max-width: 832px) {
         .loading-box {
         display: none;
+        
      }
      .loading-box-2 {
         display: flex;
@@ -127,6 +128,9 @@ body {
     .modificado {
         padding-left: 20px;
         font-size: 12px;
+     }
+     .contenedor-idiomas {
+        display: none !important;
      }
 
 
