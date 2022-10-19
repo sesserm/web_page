@@ -78,7 +78,7 @@ body {
 
 .contenedor-logos {
     border-right: 3px solid #1D1E22;
-    display:flex;
+    display:none;
     flex-direction: column;
     row-gap: 10px;
     overflow: hidden;
@@ -232,7 +232,7 @@ body {
     font-size: 18px;
     color: #1D1E22;
     min-height: 100vh;
-    
+    padding-left: 50px;
 }
 
 .sub-item-lista {

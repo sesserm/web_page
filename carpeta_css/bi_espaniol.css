@@ -82,7 +82,7 @@ body {
 
 .contenedor-logos {
     border-right: 3px solid #1D1E22;
-    display: flex;
+    display: none;
     flex-direction: column;
     row-gap: 10px;
     overflow: hidden;
@@ -225,7 +225,7 @@ body {
     border-left: 3px solid #1D1E22;
     border-top: 1px solid #1D1E22;
     border-right: 1px solid #1D1E22;
-    margin-left: 50px;
+    margin-left: 30px;
     background-color: #fff;
     height: 100%;
     width: 100%;
